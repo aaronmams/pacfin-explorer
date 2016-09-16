@@ -2,7 +2,7 @@ library(RODBC)
 library(dplyr)
 library(ggplot2)
 
-pacfin_logon <- read.csv("C:/Users/aaron.mamula.SWFSC/Desktop/pacfin_logon.csv")
+pacfin_logon <- read.csv("data/pacfin_logon.csv")
 pacfin_uid <- pacfin_logon$uid
 pacfin_pw <- pacfin_logon$pw
 
