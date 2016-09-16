@@ -1,0 +1,543 @@
+AGID,LBK_PORT,PCID,DESCRIPTION,LAT,LONG,INPFC_AREA,OBS_port,NS rank,PORT NAME
+C,211,ALB, ALBION                                ,39.2235117,-123.7686251,MONTEREY,,73, ALBION                                
+C,471,ALM, ALAMEDA                               ,37.76666667,,MONTEREY,,33, ALAMEDA                               
+W,ANA,ANA, ANACORTES                             ,48.5220491,-122.6123942,VANCOUVER,ANACORTES,472, ANACORTES                             
+C,213,ARE, POINT ARENA                           ,38.911,,MONTEREY,,72, POINT ARENA                           
+O,2,AST, ASTORIA                               ,46.1878841,-123.8312534,COLUMBIA,ASTORIA / WARRENTON,372, ASTORIA                               
+C,602,AVL, AVILA                                 ,35.179,-120.7342,CONCEPTION,AVILA,12, AVILA                                 
+C,473,BDG, BODEGA BAY                            ,38.33325,-123.0480571,MONTEREY,BODEGA BAY,40, BODEGA BAY                            
+O,36,BDN, BANDON                                ,43.1189978,-124.408448,COLUMBIA,BANDON,310, BANDON                                
+C,472,BKL, BERKELEY                              ,37.866,,MONTEREY,,36, BERKELEY                              
+W,BEL,BLL, BELLINGHAM BAY                        ,48.7456636,-122.4935031,VANCOUVER,BELLINGHAM BAY,505, BELLINGHAM BAY                        
+W,BLA,BLN, BLAINE                                ,48.9940007,-122.7596199,VANCOUVER,,506, BLAINE                                
+C,487,BOL, BOLINAS                               ,37.909,,MONTEREY,BOLINAS,534, BOLINAS                               
+C,223,BRG, FORT BRAGG                            ,39.445723,-123.8052935,MONTEREY,FORT BRAGG,74, FORT BRAGG                            
+O,42,BRK, BROOKINGS                             ,42.0476111,-124.2687028,EUREKA,BROOKINGS,303, BROOKINGS                             
+O,6,CNB, CANNON BEACH                          ,45.8917738,-123.9615274,COLUMBIA,,370, CANNON BEACH                          
+O,34,COS, CHARLESTON                            ,43.3665007,-124.2178903,COLUMBIA,CHARLESTON (COOS BAY),311, CHARLESTON                            
+W,C.B,CPL, COPALIS BEACH                         ,47.1125857,-124.1737879,COLUMBIA,,457, COPALIS BEACH                         
+C,201,CRS, CRESCENT CITY                         ,41.7442815,-124.1914691,EUREKA,CRESCENT CITY,90, CRESCENT CITY                         
+O,70,CRS, CRESCENT CITY                         ,41.7442815,-124.1914691,EUREKA,CRESCENT CITY,91, CRESCENT CITY                         
+O,1,CRV, COLUMBIA RIVER                        ,46.1878841,,COLUMBIA,,535, COLUMBIA RIVER                        
+C,593,CRZ, SANTA CRUZ                            ,36.96801522,-122.0027447,MONTEREY,SANTA CRUZ,30, SANTA CRUZ                            
+C,767,DNA, DANA POINT                            ,33.4597501,-117.6956073,,DANA POINT HARBOR,3, DANA POINT                            
+O,22,DPO, DEPOE BAY                             ,44.8081689,-124.0678937,COLUMBIA,DEPOE BAY,362, DEPOE BAY                             
+C,200,OHB, EUREKA AREA                           ,40.8037376,-124.1772844,EUREKA,,76, EUREKA AREA                           
+C,217,OHB, FIELDS LANDING                        ,40.8037376,-124.1772844,EUREKA,,77, FIELDS LANDING                        
+C,220,ERK, EUREKA                                ,40.8037376,-124.1772844,EUREKA,EUREKA,78, EUREKA                                
+O,72,ERK, EUREKA CA                             ,40.8037376,-124.1772844,EUREKA,,79, EUREKA
+W,EVE,EVR, EVERETT                               ,48.0003732,-122.219581,VANCOUVER,,465, EVERETT                               
+O,71,FLN, FIELDS LANDING CA                     ,40.7245711,-124.2150604,EUREKA,,75, FIELDS LANDING CA                     
+O,30,FLR, FLORENCE                              ,43.9826214,-124.0998409,COLUMBIA,,338, FLORENCE                              
+W,F.H,FRI, FRIDAY HARBOR                         ,48.5342662,-123.0171242,VANCOUVER,FRIDAY HARBOR,504, FRIDAY HARBOR                         
+O,40,GLD, GOLD BEACH                            ,42.4212221,-124.4201069,EUREKA,GOLD BEACH,304, GOLD BEACH                            
+W,ABE,GRH, ABERDEEN                              ,46.950645,-124.051005,COLUMBIA,,454, ABERDEEN                              
+W,HOQ,GRH, HOQUIAM                               ,46.950645,-124.051005,COLUMBIA,,455, HOQUIAM                               
+O,5,GSS, GEARHART-SEASIDE                      ,45.9931637,-123.9226385,COLUMBIA,,371, GEARHART-SEASIDE                      
+C,605,HNM, PORT HUENEME                          ,34.160278,-119.194444,CONCEPTION,,8, PORT HUENEME                          
+W,L.C,LAC, LACONNER                              ,48.3887143,-122.4962752,VANCOUVER,,470, LACONNER                              
+W,LAC,LAC, LACONNER                              ,48.3887143,-122.4962752,VANCOUVER,,471, LACONNER                              
+W,L.P,LAP, LAPUSH                                ,47.9086834,-124.6366039,VANCOUVER,LAPUSH,464, LAPUSH                                
+C,743,LGB, LONG BEACH                            ,33.73583,,CONCEPTION,,373, LONG BEACH                            
+O,69,LWC, ILWACO/CHINOOK                        ,46.3089891,-124.0432099,COLUMBIA,ILWACO/CHINOOK,442, ILWACO/CHINOOK                        
+W,CHI,LWC, CHINOOK                               ,46.3089891,-124.0432099,COLUMBIA,,443, CHINOOK                               
+W,ILW,LWC, ILWACO                                ,46.3089891,-124.0432099,COLUMBIA,,444, ILWACO                                
+C,550,MNT, MONTEREY                              ,36.60307431,-121.8909288,MONTEREY,MONTEREY,28, MONTEREY                              
+C,592,MOS, MOSS LANDING                          ,36.79939,-121.786447,MONTEREY,MOSS LANDING,29, MOSS LANDING                          
+C,606,MRO, MORRO BAY                             ,35.37044389,-120.8559501,CONCEPTION,MORRO BAY,13, MORRO BAY                             
+W,N.B,NEA, NEAH BAY                              ,48.3681223,-124.6249602,VANCOUVER,NEAH BAY,469, NEAH BAY                              
+O,24,NEW, NEWPORT                               ,44.6367836,-124.0534505,COLUMBIA,NEWPORT,361, NEWPORT                               
+O,8,NHL, NEHALEM BAY                           ,45.6928842,-123.9220787,COLUMBIA,,369, NEHALEM BAY                           
+O,12,NTR, NETARTS                               ,45.4023253,-123.9456814,COLUMBIA,,367, NETARTS                               
+C,748,NWB, NEWPORT BEACH                         ,33.6189101,-117.9289469,,NEWPORT BEACH,4, NEWPORT BEACH                         
+C,464,OAK, OAKLAND                               ,37.69723451,-122.1913576,MONTEREY,,32, OAKLAND                               
+W,ALA,OAL, ALASKA PORT                           ,,,,,536, ALASKA PORT                           
+C,600,OBV, SANTA BARBARA AREA                    ,34.4072194,,CONCEPTION,,507,OTH SB
+C,604,OBV, GAVIOTA                               ,34.4072194,,CONCEPTION,,508,OTH SB
+C,612,OBV, SANTA MARIA                           ,34.4072194,,CONCEPTION,,509,OTH SB
+C,614,OBV, GOLETA                                ,34.4072194,,CONCEPTION,,510,OTH SB
+C,616,OBV, SUMMERLAND                            ,34.4072194,,CONCEPTION,,511,OTH SB
+C,618,OBV, GUADALUPE                             ,34.4072194,,CONCEPTION,,512,OTH SB
+C,619,OBV, CONCEPTION                            ,34.4072194,,CONCEPTION,,513,OTH SB
+C,620,OBV, POINT ARGUELLO                        ,34.4072194,,CONCEPTION,,514,OTH SB
+C,621,OBV, SURF                                  ,34.4072194,,CONCEPTION,,515,OTH SB
+C,623,OBV, SANTA CRUZ ISLAND                     ,34.4072194,,CONCEPTION,,516,OTH SB
+C,628,OBV, POINT MUGU                            ,34.4072194,,CONCEPTION,,517,OTH SB
+C,630,OBV, RINCON                                ,34.4072194,,CONCEPTION,,518,OTH SB
+C,634,OBV, SOLROMAR                              ,34.4072194,,CONCEPTION,,519,OTH SB
+C,635,OBV, CARPENTERIA                           ,34.4072194,,CONCEPTION,,520,OTH SB
+C,639,OBV, LOMPOC                                ,34.4072194,,CONCEPTION,,521,OTH SB
+C,640,OBV, SIMI VALLEY                           ,34.4072194,,CONCEPTION,,522,OTH SB
+C,645,OBV, SOLVANG                               ,34.4072194,,CONCEPTION,,523,OTH SB
+C,650,OBV, OJAI                                  ,34.4072194,,CONCEPTION,,524,OTH SB
+C,651,OBV, WESTLAKE VILLAGE                      ,34.4072194,,CONCEPTION,,525,OTH SB
+C,655,OBV, SANTA PAULA                           ,34.4072194,,CONCEPTION,,526,OTH SB
+C,787,OBV, CAMARILLO                             ,34.4072194,,CONCEPTION,,527,OTH SB
+C,801,OBV, THOUSAND OAKS                         ,34.4072194,,CONCEPTION,,528,OTH SB
+C,100,OCA, NORTH OF CALIFORNIA                   ,42,,EUREKA,,157,OTH CA
+C,205,OCA, YREKA                                 ,42,,,,158,OTH CA
+C,206,OCA, CHESTER                               ,42,,,,159,OTH CA
+C,207,OCA, CENTERVILLE                           ,42,,,,160,OTH CA
+C,216,OCA, FIELDBROOK                            ,42,,,,161,OTH CA
+C,236,OCA, BAYSIDE                               ,42,,,,162,OTH CA
+C,238,OCA, THORN                                 ,42,,,,163,OTH CA
+C,244,OCA, REDDING                               ,42,,,,164,OTH CA
+C,245,OCA, RED BLUFF                             ,42,,,,165,OTH CA
+C,249,OCA, BIEBER                                ,42,,,,166,OTH CA
+C,250,OCA, MCCLOUD                               ,42,,,,167,OTH CA
+C,251,OCA, FALL RIVER MILLS                      ,42,,,,168,OTH CA
+C,252,OCA, COTTONWOOD                            ,42,,,,169,OTH CA
+C,253,OCA, ROUGH & READY                         ,42,,,,170,OTH CA
+C,254,OCA, TAHOE KEYS                            ,42,,,,171,OTH CA
+C,256,OCA, ORANGEVALE                            ,42,,,,172,OTH CA
+C,257,OCA, OROVILLE                              ,42,,,,173,OTH CA
+C,258,OCA, CITRUS HEIGHTS                        ,42,,,,174,OTH CA
+C,260,OCA, AUBURN                                ,42,,,,175,OTH CA
+C,263,OCA, WHITEHORN                             ,42,,,,176,OTH CA
+C,264,OCA, LOS MOLINOS                           ,42,,,,177,OTH CA
+C,265,OCA, ROSEVILLE                             ,42,,,,178,OTH CA
+C,267,OCA, GALT                                  ,42,,,,179,OTH CA
+C,269,OCA, CORNING                               ,42,,,,180,OTH CA
+C,270,OCA, WEAVERVILLE                           ,42,,,,181,OTH CA
+C,271,OCA, ORLAND                                ,42,,,,182,OTH CA
+C,272,OCA, WEED                                  ,42,,,,183,OTH CA
+C,273,OCA, WILLOWS                               ,42,,,,184,OTH CA
+C,276,OCA, ARBUCKLE                              ,42,,,,185,OTH CA
+C,277,OCA, HAPPY CAMP                            ,42,,,,186,OTH CA
+C,278,OCA, DOUGLAS CITY                          ,42,,,,187,OTH CA
+C,300,OCA, SACRAMENTO AREA                       ,42,,,,188,OTH CA
+C,301,OCA, SONORA                                ,42,,,,189,OTH CA
+C,302,OCA, DIXON                                 ,42,,,,190,OTH CA
+C,303,OCA, CAMP CONNELL                          ,42,,,,191,OTH CA
+C,305,OCA, WEST SACRAMENTO                       ,42,,,,192,OTH CA
+C,306,OCA, PLACERVILLE                           ,42,,,,193,OTH CA
+C,309,OCA, SMARTSVILLE                           ,42,,,,194,OTH CA
+C,310,OCA, OLIVEHURST                            ,42,,,,195,OTH CA
+C,311,OCA, GUSTINE                               ,42,,,,196,OTH CA
+C,312,OCA, TAHOE CITY                            ,42,,,,197,OTH CA
+C,313,OCA, GLENN                                 ,42,,,,198,OTH CA
+C,315,OCA, MARYSVILLE                            ,42,,,,199,OTH CA
+C,316,OCA, RIPON                                 ,42,,,,200,OTH CA
+C,317,OCA, FAIR OAKS                             ,42,,,,201,OTH CA
+C,318,OCA, BYRON                                 ,42,,,,202,OTH CA
+C,319,OCA, DAVIS                                 ,42,,,,203,OTH CA
+C,320,OCA, TURLOCK                               ,42,,,,204,OTH CA
+C,321,OCA, SNELLING                              ,42,,,,205,OTH CA
+C,322,OCA, FREEPORT                              ,42,,,,206,OTH CA
+C,324,OCA, BETHEL ISLAND                         ,42,,,,207,OTH CA
+C,326,OCA, MONTEZUMA SLOUGH                      ,42,,,,208,OTH CA
+C,327,OCA, NICE                                  ,42,,,,209,OTH CA
+C,328,OCA, DENVERTON                             ,42,,,,210,OTH CA
+C,330,OCA, SACRAMENTO                            ,42,,,,211,OTH CA
+C,331,OCA, THREE MILE SLOUGH                     ,42,,,,212,OTH CA
+C,332,OCA, STEAMBOAT SLOUGH                      ,42,,,,213,OTH CA
+C,337,OCA, WOODBRIDGE                            ,42,,,,214,OTH CA
+C,338,OCA, LATHROP                               ,42,,,,215,OTH CA
+C,339,OCA, OLD RIVER                             ,42,,,,216,OTH CA
+C,343,OCA, COURTLAND                             ,42,,,,217,OTH CA
+C,346,OCA, LOCKE                                 ,42,,,,218,OTH CA
+C,347,OCA, LODI                                  ,42,,,,219,OTH CA
+C,349,OCA, ISLETON                               ,42,,,,220,OTH CA
+C,350,OCA, BRYTE                                 ,42,,,,221,OTH CA
+C,352,OCA, STOCKTON                              ,42,,,,222,OTH CA
+C,354,OCA, WALNUT GROVE                          ,42,,,,223,OTH CA
+C,358,OCA, LAKEPORT                              ,42,,,,224,OTH CA
+C,359,OCA, ACAMPO                                ,42,,,,225,OTH CA
+C,361,OCA, CLEAR LAKE                            ,42,,,,226,OTH CA
+C,362,OCA, BRODERICK                             ,42,,,,227,OTH CA
+C,363,OCA, CLARKSBURG                            ,42,,,,228,OTH CA
+C,364,OCA, ELK GROVE                             ,42,,,,229,OTH CA
+C,365,OCA, COLUSA                                ,42,,,,230,OTH CA
+C,366,OCA, KNIGHTS LANDING                       ,42,,,,231,OTH CA
+C,368,OCA, HOOD                                  ,42,,,,232,OTH CA
+C,369,OCA, VERONA                                ,42,,,,233,OTH CA
+C,370,OCA, PATTERSON                             ,42,,,,234,OTH CA
+C,371,OCA, LUCERNE                               ,42,,,,235,OTH CA
+C,372,OCA, MIDDLE RIVER                          ,42,,,,236,OTH CA
+C,373,OCA, GRIDLEY                               ,42,,,,237,OTH CA
+C,374,OCA, YUBA CITY                             ,42,,,,238,OTH CA
+C,376,OCA, MODESTO                               ,42,,,,239,OTH CA
+C,377,OCA, UPPER LAKE                            ,42,,,,240,OTH CA
+C,378,OCA, TRACY                                 ,42,,,,241,OTH CA
+C,379,OCA, MANTECA                               ,42,,,,242,OTH CA
+C,388,OCA, TRUCKEE                               ,42,,,,243,OTH CA
+C,390,OCA, WOODLAND                              ,42,,,,244,OTH CA
+C,391,OCA, MONO LAKE                             ,42,,,,245,OTH CA
+C,393,OCA, RIO LINDA                             ,42,,,,246,OTH CA
+C,394,OCA, LEE VINING                            ,42,,,,247,OTH CA
+C,395,OCA, NICOLAUS                              ,42,,,,248,OTH CA
+C,396,OCA, EL DORADO HILLS                       ,42,,,,249,OTH CA
+C,397,OCA, YOLO                                  ,42,,,,250,OTH CA
+C,398,OCA, CORDELIA                              ,42,,,,251,OTH CA
+C,405,OCA, SAINT HELENA                          ,42,,,,252,OTH CA
+C,406,OCA, MONTE VISTA                           ,42,,,,253,OTH CA
+C,424,OCA, TIMBER COVE                           ,42,,,,254,OTH CA
+C,458,OCA, PEDRO VALLEY                          ,42,,,,255,OTH CA
+C,495,OCA, CALIFORNIA CITY                       ,42,,,,256,OTH CA
+C,501,OCA, CERES                                 ,42,,,,257,OTH CA
+C,503,OCA, KINGSBURG                             ,42,,,,258,OTH CA
+C,504,OCA, CLOVIS                                ,42,,,,259,OTH CA
+C,505,OCA, LOS BANOS                             ,42,,,,260,OTH CA
+C,508,OCA, VISALIA                               ,42,,,,261,OTH CA
+C,509,OCA, LINDSAY                               ,42,,,,262,OTH CA
+C,510,OCA, OAKHURST                              ,42,,,,263,OTH CA
+C,514,OCA, COALINGA                              ,42,,,,264,OTH CA
+C,551,OCA, KERMAN                                ,42,,,,265,OTH CA
+C,556,OCA, PIXLEY                                ,42,,,,266,OTH CA
+C,557,OCA, MADERA                                ,42,,,,267,OTH CA
+C,558,OCA, FRESNO                                ,42,,,,268,OTH CA
+C,559,OCA, CHOWCHILLA                            ,42,,,,269,OTH CA
+C,560,OCA, DOS PALOS                             ,42,,,,270,OTH CA
+C,641,OCA, PORTERVILLE                           ,42,,,,271,OTH CA
+C,642,OCA, DELANO                                ,42,,,,272,OTH CA
+C,643,OCA, BAKERSFIELD                           ,42,,,,273,OTH CA
+C,644,OCA, KERNVILLE                             ,42,,,,274,OTH CA
+C,646,OCA, TULARE                                ,42,,,,275,OTH CA
+C,647,OCA, SHAFTER                               ,42,,,,276,OTH CA
+C,649,OCA, OILDALE                               ,42,,,,277,OTH CA
+C,652,OCA, LAKE ISABELLA                         ,42,,,,278,OTH CA
+C,654,OCA, RIDGECREST                            ,42,,,,279,OTH CA
+C,656,OCA, TAFT                                  ,42,,,,280,OTH CA
+C,657,OCA, MOJAVE                                ,42,,,,281,OTH CA
+C,782,OCA, VICTORVILLE                           ,42,,,,282,OTH CA
+C,783,OCA, BISHOP                                ,42,,,,283,OTH CA
+C,788,OCA, NEWBERRY SPRINGS                      ,42,,,,284,OTH CA
+C,791,OCA, YUCCA VALLEY                          ,42,,,,285,OTH CA
+C,799,OCA, LAKE CROWLEY                          ,42,,,,286,OTH CA
+C,853,OCA, EARP                                  ,42,,,,287,OTH CA
+C,854,OCA, HEMET                                 ,42,,,,288,OTH CA
+C,855,OCA, THERMAL                               ,42,,,,289,OTH CA
+C,856,OCA, PALM SPRINGS                          ,42,,,,290,OTH CA
+C,857,OCA, TECOPA                                ,42,,,,291,OTH CA
+C,858,OCA, PALO VERDE                            ,42,,,,292,OTH CA
+C,866,OCA, IMPERIAL                              ,42,,,,293,OTH CA
+C,872,OCA, WINTERHAVEN                           ,42,,,,294,OTH CA
+C,873,OCA, SALTON SEA                            ,42,,,,295,OTH CA
+C,874,OCA, PALM CITY                             ,42,,,,296,OTH CA
+C,875,OCA, NILAND                                ,42,,,,297,OTH CA
+C,878,OCA, EL CENTRO                             ,42,,,,298,OTH CA
+C,896,OCA, OTHER CALIFORNIA PORTS                ,42,,,,299,OTH CA
+C,900,OCA, SOUTH OF CALIFORNIA                   ,42,,,,300,OTH CA
+O,46,OCA, CALIFORNIA PORT                       ,42,,,,301,OTH CA
+W,CAL,OCA, CALIFORNIA PORT                       ,42,,,,302,OTH CA
+C,0,OCA, UNKNOWN OR MISSING PORT (WPD 9-14-94) ,,,,,537,OTH CA
+C,268,OCM, FREEDOM                               ,36.6,,MONTEREY,,312,OTH MONT
+C,500,OCM, MONTEREY AREA                         ,36.6,,MONTEREY,,313,OTH MONT
+C,502,OCM, SOQUEL                                ,36.6,,MONTEREY,,314,OTH MONT
+C,506,OCM, FELTON                                ,36.6,,MONTEREY,,315,OTH MONT
+C,507,OCM, SAN JUAN BAUTISTA                     ,36.6,,MONTEREY,,316,OTH MONT
+C,511,OCM, BIG SUR                               ,36.6,,MONTEREY,,317,OTH MONT
+C,515,OCM, BIG CREEK                             ,36.6,,MONTEREY,,318,OTH MONT
+C,516,OCM, MILL CREEK                            ,36.6,,MONTEREY,,319,OTH MONT
+C,517,OCM, WILLOW CREEK                          ,36.6,,MONTEREY,,320,OTH MONT
+C,549,OCM, FORT ORD                              ,36.6,,MONTEREY,,321,OTH MONT
+C,552,OCM, GILROY                                ,36.6,,MONTEREY,,322,OTH MONT
+C,553,OCM, MORGAN HILL                           ,36.6,,MONTEREY,,323,OTH MONT
+C,581,OCM, HOLLISTER                             ,36.6,,MONTEREY,,324,OTH MONT
+C,584,OCM, LUCIA                                 ,36.6,,MONTEREY,,325,OTH MONT
+C,585,OCM, PEBBLE BEACH                          ,36.6,,MONTEREY,,326,OTH MONT
+C,586,OCM, POINT LOBOS                           ,36.6,,MONTEREY,,327,OTH MONT
+C,587,OCM, PACIFIC GROVE                         ,36.6,,MONTEREY,,328,OTH MONT
+C,588,OCM, SEASIDE                               ,36.6,,MONTEREY,,329,OTH MONT
+C,589,OCM, CARMEL                                ,36.6,,MONTEREY,,330,OTH MONT
+C,590,OCM, SALINAS                               ,36.6,,MONTEREY,,331,OTH MONT
+C,591,OCM, CAPITOLA                              ,36.6,,MONTEREY,,332,OTH MONT
+C,594,OCM, WATSONVILLE                           ,36.6,,MONTEREY,,333,OTH MONT
+C,596,OCM, DAVENPORT                             ,36.6,,MONTEREY,,334,OTH MONT
+C,598,OCM, MARINA                                ,36.6,,MONTEREY,,335,OTH MONT
+C,599,OCM, APTOS                                 ,36.6,,MONTEREY,,336,OTH MONT
+C,883,OCN, OCEANSIDE                             ,33.1958696,-117.3794834,CONCEPTION,OCEANSIDE,2,OTH SD North
+W,KEL,OCR, KELSO                                 ,46.1878,,COLUMBIA,,530,OTH ColRiver
+W,VAN,OCR, VANCOUVER                             ,46.1878841,,COLUMBIA,,529,OTH ColRiver
+C,202,ODN, REQUA                                 ,41.54,,EUREKA,,305,OTH DelNorte
+C,203,ODN, SMITH RIVER                           ,41.54,,EUREKA,,306,OTH DelNorte
+C,210,ODN, KLAMATH                               ,41.54,,EUREKA,,307,OTH DelNorte
+C,229,ODN, FORT DICK                             ,41.54,,EUREKA,,308,OTH DelNorte
+C,204,OHB, ORICK                                 ,40.03,,EUREKA,,339,OTH Humboldt
+C,208,OHB, BLUE LAKE                             ,40.03,,EUREKA,,340,OTH Humboldt
+C,209,OHB, CRANNELL                              ,40.03,,EUREKA,,341,OTH Humboldt
+C,212,OHB, ARCATA                                ,40.03,,EUREKA,,342,OTH Humboldt
+C,214,OHB, FERNDALE                              ,40.03,,EUREKA,,343,OTH Humboldt
+C,215,OHB, SHELTER COVE                          ,40.03,,EUREKA,,344,OTH Humboldt
+C,218,OHB, SCOTIA                                ,40.03,,EUREKA,,345,OTH Humboldt
+C,219,OHB, HUMBOLDT                              ,40.03,,EUREKA,,346,OTH Humboldt
+C,221,OHB, FORTUNA                               ,40.03,,EUREKA,,347,OTH Humboldt
+C,224,OHB, LOLETA                                ,40.03,,EUREKA,,348,OTH Humboldt
+C,225,OHB, RUTH                                  ,40.03,,EUREKA,,349,OTH Humboldt
+C,230,OHB, GARBERVILLE                           ,40.03,,EUREKA,,350,OTH Humboldt
+C,232,OHB, MIRANDA                               ,40.03,,EUREKA,,351,OTH Humboldt
+C,234,OHB, MCKINLEYVILLE                         ,40.03,,EUREKA,,352,OTH Humboldt
+C,235,OHB, MOONSTONE BEACH                       ,40.03,,EUREKA,,353,OTH Humboldt
+C,237,OHB, WEOTT                                 ,40.03,,EUREKA,,354,OTH Humboldt
+C,239,OHB, PETROLIA                              ,40.03,,EUREKA,,355,OTH Humboldt
+C,246,OHB, KING SALMON                           ,40.03,,EUREKA,,356,OTH Humboldt
+C,255,OHB, CARLOTTA                              ,40.03,,EUREKA,,357,OTH Humboldt
+C,274,OHB, HONEYDEW                              ,40.03,,EUREKA,,358,OTH Humboldt
+C,700,OLA, LOS ANGELES AREA                      ,33.73583,,CONCEPTION,LOS ANGELES AREA,374,OTH LA
+C,701,OLA, GLENDALE                              ,33.73583,,CONCEPTION,,375,OTH LA
+C,702,OLA, SOUTH GATE                            ,33.73583,,CONCEPTION,,376,OTH LA
+C,703,OLA, LANCASTER                             ,33.73583,,CONCEPTION,,377,OTH LA
+C,704,OLA, FOUNTAIN VALLEY                       ,33.73583,,CONCEPTION,,378,OTH LA
+C,705,OLA, GRANADA HILLS                         ,33.73583,,CONCEPTION,,379,OTH LA
+C,706,OLA, RANCHO PALOS VERDES                   ,33.73583,,CONCEPTION,,380,OTH LA
+C,707,OLA, WESTMINISTER                          ,33.73583,,CONCEPTION,,381,OTH LA
+C,708,OLA, COVINA                                ,33.73583,,CONCEPTION,,382,OTH LA
+C,709,OLA, EL SEGUNDO                            ,33.73583,,CONCEPTION,,383,OTH LA
+C,710,OLA, HAWAIIAN GARDENS                      ,33.73583,,CONCEPTION,,384,OTH LA
+C,711,OLA, CARSON                                ,33.73583,,CONCEPTION,,385,OTH LA
+C,712,OLA, MISSION VIEJO                         ,33.73583,,CONCEPTION,,386,OTH LA
+C,721,OLA, ANAHEIM                               ,33.73583,,CONCEPTION,,387,OTH LA
+C,724,OLA, BELL GARDENS                          ,33.73583,,CONCEPTION,,388,OTH LA
+C,726,OLA, ORANGE                                ,33.73583,,CONCEPTION,,389,OTH LA
+C,727,OLA, WHITTIER                              ,33.73583,,CONCEPTION,,390,OTH LA
+C,728,OLA, NORWALK                               ,33.73583,,CONCEPTION,,391,OTH LA
+C,729,OLA, MALIBU                                ,33.73583,,CONCEPTION,,392,OTH LA
+C,730,OLA, TORRANCE                              ,33.73583,,CONCEPTION,,393,OTH LA
+C,733,OLA, CATALINA ISLAND                       ,33.73583,,CONCEPTION,,394,OTH LA
+C,736,OLA, LOS ALAMITOS                          ,33.73583,,CONCEPTION,,395,OTH LA
+C,738,OLA, PACIFIC PALISADES                     ,33.73583,,CONCEPTION,,396,OTH LA
+C,739,OLA, SUNSET BEACH                          ,33.73583,,CONCEPTION,,397,OTH LA
+C,741,OLA, AVALON                                ,33.73583,,CONCEPTION,,398,OTH LA
+C,742,OLA, REDONDO BEACH                         ,33.73583,,CONCEPTION,,399,OTH LA
+C,744,OLA, LOS ANGELES                           ,33.73583,,CONCEPTION,LOS ANGELES,400,OTH LA
+C,747,OLA, SANTA MONICA                          ,33.73583,,CONCEPTION,,401,OTH LA
+C,749,OLA, LAGUNA                                ,33.73583,,CONCEPTION,,402,OTH LA
+C,750,OLA, WEST LOS ANGELES                      ,33.73583,,CONCEPTION,,403,OTH LA
+C,751,OLA, TOPANGA CANYON                        ,33.73583,,CONCEPTION,,404,OTH LA
+C,752,OLA, OCEAN PARK                            ,33.73583,,CONCEPTION,,405,OTH LA
+C,753,OLA, VENICE                                ,33.73583,,CONCEPTION,,406,OTH LA
+C,754,OLA, ELSINORE                              ,33.73583,,CONCEPTION,,407,OTH LA
+C,755,OLA, NORCO                                 ,33.73583,,CONCEPTION,,408,OTH LA
+C,756,OLA, HERMOSA BEACH                         ,33.73583,,CONCEPTION,,409,OTH LA
+C,757,OLA, POINT DUME                            ,33.73583,,CONCEPTION,,410,OTH LA
+C,759,OLA, COSTA MESA                            ,33.73583,,CONCEPTION,,411,OTH LA
+C,760,OLA, SEAL BEACH                            ,33.73583,,CONCEPTION,,412,OTH LA
+C,762,OLA, MANHATTAN BEACH                       ,33.73583,,CONCEPTION,,413,OTH LA
+C,763,OLA, ALHAMBRA                              ,33.73583,,CONCEPTION,,414,OTH LA
+C,764,OLA, BALBOA                                ,33.73583,,CONCEPTION,,415,OTH LA
+C,765,OLA, CORONA DEL MAR                        ,33.73583,,CONCEPTION,,416,OTH LA
+C,766,OLA, SAN CLENENTE                          ,33.73583,,CONCEPTION,,417,OTH LA
+C,768,OLA, HUNTINGTON BEACH                      ,33.73583,,CONCEPTION,,418,OTH LA
+C,769,OLA, RIVERSIDE                             ,33.73583,,CONCEPTION,,419,OTH LA
+C,771,OLA, SANTA ANA                             ,33.73583,,CONCEPTION,,420,OTH LA
+C,772,OLA, CAPISTRANO                            ,33.73583,,CONCEPTION,,421,OTH LA
+C,773,OLA, GARDENA                               ,33.73583,,CONCEPTION,,422,OTH LA
+C,774,OLA, INGLEWOOD                             ,33.73583,,CONCEPTION,,423,OTH LA
+C,775,OLA, BEAUMONT                              ,33.73583,,CONCEPTION,,424,OTH LA
+C,776,OLA, PLAYA DEL REY                         ,33.73583,,CONCEPTION,,425,OTH LA
+C,777,OLA, LYNWOOD                               ,33.73583,,CONCEPTION,,426,OTH LA
+C,778,OLA, PARAMOUNT                             ,33.73583,,CONCEPTION,,427,OTH LA
+C,779,OLA, HARBOR CITY                           ,33.73583,,CONCEPTION,,428,OTH LA
+C,780,OLA, FULLERTON                             ,33.73583,,CONCEPTION,,429,OTH LA
+C,781,OLA, WALNUT                                ,33.73583,,CONCEPTION,,430,OTH LA
+C,784,OLA, SAN BERNARDINO                        ,33.73583,,CONCEPTION,,431,OTH LA
+C,785,OLA, VERNON                                ,33.73583,,CONCEPTION,,432,OTH LA
+C,789,OLA, UPLAND                                ,33.73583,,CONCEPTION,,433,OTH LA
+C,790,OLA, IRVINE                                ,33.73583,,CONCEPTION,,434,OTH LA
+C,792,OLA, BLOOMINGTON                           ,33.73583,,CONCEPTION,,435,OTH LA
+C,794,OLA, LA CANADA                             ,33.73583,,CONCEPTION,,436,OTH LA
+C,796,OLA, PASADENA                              ,33.73583,,CONCEPTION,,437,OTH LA
+C,802,OLA, NEWHALL                               ,33.73583,,CONCEPTION,,438,OTH LA
+C,803,OLA, RESEDA                                ,33.73583,,CONCEPTION,,439,OTH LA
+C,804,OLA, ONTARIO                               ,33.73583,,CONCEPTION,,440,OTH LA
+C,805,OLA, CHATSWORTH                            ,33.73583,,CONCEPTION,,441,OTH LA
+W,OLY,OLY, OLYMPIA                               ,47.0378741,-122.9006951,COLUMBIA,,456, OLYMPIA                               
+C,222,OMD, ELK                                   ,39.2235117,,MONTEREY,,80,OTH Mendocino
+C,226,OMD, CASPAR                                ,39.2235117,,MONTEREY,,81,OTH Mendocino
+C,227,OMD, LITTLE RIVER                          ,39.2235117,,MONTEREY,,82,OTH Mendocino
+C,228,OMD, MENDOCINO                             ,39.2235117,,MONTEREY,,83,OTH Mendocino
+C,233,OMD, WESTPORT                              ,39.2235117,,MONTEREY,,84,OTH Mendocino
+C,240,OMD, ALMANOR                               ,39.2235117,,MONTEREY,,85,OTH Mendocino
+C,243,OMD, UKIAH                                 ,39.2235117,,MONTEREY,,86,OTH Mendocino
+C,275,OMD, WILLITS                               ,39.2235117,,MONTEREY,,87,OTH Mendocino
+C,427,OMD, ANCHOR BAY                            ,39.2235117,,MONTEREY,,88,OTH Mendocino
+W,COU,ONP, COUPEVILLE                            ,49,,VANCOUVER,,531,OTH North
+W,P.R,ONP, POINT ROBERTS                         ,49,,VANCOUVER,,532,OTH North
+W,ORE,OOR, OREGON PORT                           ,,,COLUMBIA,,538,
+O,38,ORF, PORT ORFORD                           ,42.7387201,-124.4912156,EUREKA,PORT ORFORD,309, PORT ORFORD                           
+C,734,OSD, SAN CLEMENTE ISLAND                   ,33.4597501,,CONCEPTION,,473,OTH SD
+C,800,OSD, SAN DIEGO AREA                        ,33.4597501,,CONCEPTION,SAN DIEGO AREA,474,OTH SD
+C,852,OSD, POWAY                                 ,33.4597501,,CONCEPTION,,475,OTH SD
+C,859,OSD, VALLEY CENTER                         ,33.4597501,,CONCEPTION,,476,OTH SD
+C,860,OSD, SANTEE                                ,33.4597501,,CONCEPTION,,477,OTH SD
+C,861,OSD, FALLBROOK                             ,33.4597501,,CONCEPTION,,478,OTH SD
+C,862,OSD, SAN MARCOS                            ,33.4597501,,CONCEPTION,,479,OTH SD
+C,863,OSD, NORTH SHORE                           ,33.4597501,,CONCEPTION,,480,OTH SD
+C,864,OSD, BONITA                                ,33.4597501,,CONCEPTION,,481,OTH SD
+C,865,OSD, SPRING VALLEY                         ,33.4597501,,CONCEPTION,,482,OTH SD
+C,867,OSD, LEUCADIA                              ,33.4597501,,CONCEPTION,,483,OTH SD
+C,868,OSD, IMPERIAL BEACH                        ,33.4597501,,CONCEPTION,,484,OTH SD
+C,869,OSD, MISSION BAY                           ,33.4597501,,CONCEPTION,,485,OTH SD
+C,870,OSD, SAN YSIDRO                            ,33.4597501,,CONCEPTION,,486,OTH SD
+C,877,OSD, LEMON GROVE                           ,33.4597501,,CONCEPTION,,487,OTH SD
+C,879,OSD, EL CAJON                              ,33.4597501,,CONCEPTION,,488,OTH SD
+C,881,OSD, POINT LOMA                            ,33.4597501,,CONCEPTION,,489,OTH SD
+C,882,OSD, NATIONAL CITY                         ,33.4597501,,CONCEPTION,,490,OTH SD
+C,884,OSD, CORONADO                              ,33.4597501,,CONCEPTION,,491,OTH SD
+C,885,OSD, OCEAN BEACH                           ,33.4597501,,CONCEPTION,,492,OTH SD
+C,886,OSD, MISSION BEACH                         ,33.4597501,,CONCEPTION,,493,OTH SD
+C,888,OSD, LA JOLLA                              ,33.4597501,,CONCEPTION,,494,OTH SD
+C,889,OSD, CHULA VISTA                           ,33.4597501,,CONCEPTION,,495,OTH SD
+C,890,OSD, DEL MAR                               ,33.4597501,,CONCEPTION,,496,OTH SD
+C,891,OSD, CARLSBAD                              ,33.4597501,,CONCEPTION,,497,OTH SD
+C,893,OSD, CARDIFF                               ,33.4597501,,CONCEPTION,,498,OTH SD
+C,894,OSD, ENCINITAS                             ,33.4597501,,CONCEPTION,,499,OTH SD
+C,895,OSD, SOLANA BEACH                          ,33.4597501,,CONCEPTION,,500,OTH SD
+C,897,OSD, VISTA                                 ,33.4597501,,CONCEPTION,,501,OTH SD
+C,898,OSD, LA MESA                               ,33.4597501,,CONCEPTION,,502,OTH SD
+C,899,OSD, ESCONDIDO                             ,33.4597501,,CONCEPTION,,503,OTH SD
+C,259,OSF, CONCORD                               ,37.809,,MONTEREY,,92,OTH SF
+C,262,OSF, VACAVILLE                             ,37.809,,MONTEREY,,93,OTH SF
+C,266,OSF, FAIRFIELD                             ,37.809,,MONTEREY,,94,OTH SF
+C,304,OSF, DANVILLE                              ,37.809,,MONTEREY,,95,OTH SF
+C,307,OSF, PLEASANT HILL                         ,37.809,,MONTEREY,,96,OTH SF
+C,308,OSF, PLEASANTON                            ,37.809,,MONTEREY,,97,OTH SF
+C,314,OSF, WALNUT CREEK                          ,37.809,,MONTEREY,,98,OTH SF
+C,323,OSF, BRENTWOOD                             ,37.809,,MONTEREY,,99,OTH SF
+C,325,OSF, SUISUN CITY                           ,37.809,,MONTEREY,,100,OTH SF
+C,329,OSF, BIRDS LANDING                         ,37.809,,MONTEREY,,101,OTH SF
+C,341,OSF, BENICIA                               ,37.809,,MONTEREY,,102,OTH SF
+C,342,OSF, COLLINSVILLE                          ,37.809,,MONTEREY,,103,OTH SF
+C,345,OSF, PITTSBURG                             ,37.809,,MONTEREY,,104,OTH SF
+C,348,OSF, MARTINEZ                              ,37.809,,MONTEREY,,105,OTH SF
+C,351,OSF, RIO VISTA                             ,37.809,,MONTEREY,,106,OTH SF
+C,356,OSF, ANTIOCH                               ,37.809,,MONTEREY,,107,OTH SF
+C,357,OSF, CROCKETT                              ,37.809,,MONTEREY,,108,OTH SF
+C,360,OSF, ANTIOCH BRIDGE                        ,37.809,,MONTEREY,,109,OTH SF
+C,367,OSF, PORT COSTA                            ,37.809,,MONTEREY,,110,OTH SF
+C,387,OSF, OAKLEY                                ,37.809,,MONTEREY,,111,OTH SF
+C,400,OSF, SAN FRANCISCO AREA                    ,37.809,,MONTEREY,SAN FRANCISCO AREA,112,OTH SF
+C,401,OSF, FREMONT                               ,37.809,,MONTEREY,,113,OTH SF
+C,402,OSF, ALAMO                                 ,37.809,,MONTEREY,,114,OTH SF
+C,403,OSF, LOS GATOS                             ,37.809,,MONTEREY,,115,OTH SF
+C,409,OSF, FOSTER CITY                           ,37.809,,MONTEREY,,116,OTH SF
+C,410,OSF, BURLINGAME                            ,37.809,,MONTEREY,,117,OTH SF
+C,411,OSF, LOS ALTOS                             ,37.809,,MONTEREY,,118,OTH SF
+C,412,OSF, GLEN COVE                             ,37.809,,MONTEREY,,119,OTH SF
+C,413,OSF, LIVERMORE                             ,37.809,,MONTEREY,,120,OTH SF
+C,414,OSF, SAN BRUNO                             ,37.809,,MONTEREY,,121,OTH SF
+C,416,OSF, YOUNTVILLE                            ,37.809,,MONTEREY,,122,OTH SF
+C,417,OSF, NEWARK                                ,37.809,,MONTEREY,,123,OTH SF
+C,422,OSF, EL SOBRANTE                           ,37.809,,MONTEREY,,124,OTH SF
+C,425,OSF, EMERYVILLE                            ,37.809,,MONTEREY,,125,OTH SF
+C,428,OSF, EL CERRITO                            ,37.809,,MONTEREY,,126,OTH SF
+C,429,OSF, NAPA                                  ,37.809,,MONTEREY,,127,OTH SF
+C,430,OSF, SAN LEANDRO                           ,37.809,,MONTEREY,,128,OTH SF
+C,432,OSF, LAFAYETTE                             ,37.809,,MONTEREY,,129,OTH SF
+C,434,OSF, MOUNTAIN VIEW                         ,37.809,,MONTEREY,,130,OTH SF
+C,436,OSF, HAYWARD                               ,37.809,,MONTEREY,,131,OTH SF
+C,438,OSF, SUNNYVALE                             ,37.809,,MONTEREY,,132,OTH SF
+C,439,OSF, PACIFICA                              ,37.809,,MONTEREY,,133,OTH SF
+C,442,OSF, REDWOOD CITY                          ,37.809,,MONTEREY,,134,OTH SF
+C,443,OSF, MOSS BEACH                            ,37.809,,MONTEREY,,135,OTH SF
+C,444,OSF, SAN CARLOS                            ,37.809,,MONTEREY,,136,OTH SF
+C,445,OSF, MARTINS BEACH                         ,37.809,,MONTEREY,,137,OTH SF
+C,446,OSF, CAMPBELL                              ,37.809,,MONTEREY,,138,OTH SF
+C,448,OSF, DALY CITY                             ,37.809,,MONTEREY,,139,OTH SF
+C,449,OSF, ALVISO                                ,37.809,,MONTEREY,,140,OTH SF
+C,450,OSF, PINOLE                                ,37.809,,MONTEREY,,141,OTH SF
+C,451,OSF, RODEO                                 ,37.809,,MONTEREY,,142,OTH SF
+C,453,OSF, VALLEJO                               ,37.809,,MONTEREY,,143,OTH SF
+C,454,OSF, SAN JOSE                              ,37.809,,MONTEREY,,144,OTH SF
+C,455,OSF, CHINA CAMP                            ,37.809,,MONTEREY,,145,OTH SF
+C,463,OSF, MCNEARS POINT                         ,37.809,,MONTEREY,,146,OTH SF
+C,465,OSF, SAN MATEO                             ,37.809,,MONTEREY,,147,OTH SF
+C,470,OSF, SOUTH SAN FRANCISCO                   ,37.809,,MONTEREY,,148,OTH SF
+C,479,OSF, PIGEON POINT                          ,37.809,,MONTEREY,,149,OTH SF
+C,481,OSF, POINT MONTARA                         ,37.809,,MONTEREY,,150,OTH SF
+C,482,OSF, PESCADERO                             ,37.809,,MONTEREY,,151,OTH SF
+C,483,OSF, POINT SAN PEDRO                       ,37.809,,MONTEREY,,152,OTH SF
+C,484,OSF, ALBANY                                ,37.809,,MONTEREY,,153,OTH SF
+C,485,OSF, FARALLONE IS                          ,37.809,,MONTEREY,,154,OTH SF
+C,494,OSF, PALO ALTO                             ,37.809,,MONTEREY,,155,OTH SF
+C,498,OSF, ROCKAWAY BEACH                        ,37.809,,MONTEREY,,156,OTH SF
+C,512,OSL, SAN MIGUEL                            ,35.179,,CONCEPTION,,14,OTH SLO
+C,513,OSL, PASO ROBLES                           ,35.179,,CONCEPTION,,15,OTH SLO
+C,601,OSL, ARROYO GRANDE                         ,35.179,,CONCEPTION,,16,OTH SLO
+C,603,OSL, CAYUCOS                               ,35.179,,CONCEPTION,,17,OTH SLO
+C,607,OSL, OCEANO                                ,35.179,,CONCEPTION,,18,OTH SLO
+C,609,OSL, SAN LUIS OBISPO                       ,35.179,,CONCEPTION,,19,OTH SLO
+C,610,OSL, PISMO BEACH                           ,35.179,,CONCEPTION,,20,OTH SLO
+C,615,OSL, SAN SIMEON                            ,35.179,,CONCEPTION,,21,OTH SLO
+C,629,OSL, SHELL BEACH                           ,35.179,,CONCEPTION,,22,OTH SLO
+C,631,OSL, NIPOMO                                ,35.179,,CONCEPTION,,23,OTH SLO
+C,632,OSL, CAMBRIA                               ,35.179,,CONCEPTION,,24,OTH SLO
+C,638,OSL, GROVER CITY                           ,35.179,,CONCEPTION,,25,OTH SLO
+C,648,OSL, BAYWOOD PARK                          ,35.179,,CONCEPTION,,26,OTH SLO
+C,653,OSL, ATASCADERO                            ,35.179,,CONCEPTION,,27,OTH SLO
+C,247,OSM, CLOVERDALE                            ,38.33,,MONTEREY,,41,OTH Sonoma/Marin
+C,261,OSM, OCCIDENTAL                            ,38.33,,MONTEREY,,42,OTH Sonoma/Marin
+C,404,OSM, FORREST KNOLLS                        ,38.33,,MONTEREY,,43,OTH Sonoma/Marin
+C,407,OSM, ROHNERT PARK                          ,38.33,,MONTEREY,,44,OTH Sonoma/Marin
+C,408,OSM, GREENBRAE                             ,38.33,,MONTEREY,,45,OTH Sonoma/Marin
+C,415,OSM, NICASIO                               ,38.33,,MONTEREY,,46,OTH Sonoma/Marin
+C,419,OSM, SONOMA                                ,38.33,,MONTEREY,,47,OTH Sonoma/Marin
+C,420,OSM, GUERNEVILLE                           ,38.33,,MONTEREY,,48,OTH Sonoma/Marin
+C,423,OSM, MUIR BEACH                            ,38.33,,MONTEREY,,49,OTH Sonoma/Marin
+C,426,OSM, KENTFIELD                             ,38.33,,MONTEREY,,50,OTH Sonoma/Marin
+C,431,OSM, MILL VALLEY                           ,38.33,,MONTEREY,,51,OTH Sonoma/Marin
+C,435,OSM, HEALDSBURG                            ,38.33,,MONTEREY,,52,OTH Sonoma/Marin
+C,437,OSM, DRAKES BAY                            ,38.33,,MONTEREY,,53,OTH Sonoma/Marin
+C,441,OSM, DILLON BEACH                          ,38.33,,MONTEREY,,54,OTH Sonoma/Marin
+C,447,OSM, STEWARTS POINT                        ,38.33,,MONTEREY,,55,OTH Sonoma/Marin
+C,457,OSM, NOVATO                                ,38.33,,MONTEREY,,56,OTH Sonoma/Marin
+C,459,OSM, PETALUMA                              ,38.33,,MONTEREY,,57,OTH Sonoma/Marin
+C,462,OSM, MARSHALL                              ,38.33,,MONTEREY,,58,OTH Sonoma/Marin
+C,466,OSM, SAN QUENTIN                           ,38.33,,MONTEREY,,59,OTH Sonoma/Marin
+C,468,OSM, SAN RAFAEL                            ,38.33,,MONTEREY,,60,OTH Sonoma/Marin
+C,474,OSM, INVERNESS                             ,38.33,,MONTEREY,,61,OTH Sonoma/Marin
+C,475,OSM, SANTA ROSA                            ,38.33,,MONTEREY,,62,OTH Sonoma/Marin
+C,486,OSM, MILLERTON                             ,38.33,,MONTEREY,,63,OTH Sonoma/Marin
+C,488,OSM, MARCONI                               ,38.33,,MONTEREY,,64,OTH Sonoma/Marin
+C,489,OSM, JENNER                                ,38.33,,MONTEREY,,65,OTH Sonoma/Marin
+C,490,OSM, HAMLET                                ,38.33,,MONTEREY,,66,OTH Sonoma/Marin
+C,491,OSM, CORTE MADERA                          ,38.33,,MONTEREY,,67,OTH Sonoma/Marin
+C,492,OSM, SEBASTOPOL                            ,38.33,,MONTEREY,,68,OTH Sonoma/Marin
+C,496,OSM, TIBURON                               ,38.33,,MONTEREY,,69,OTH Sonoma/Marin
+C,497,OSM, STINSON BEACH                         ,38.33,,MONTEREY,,70,OTH Sonoma/Marin
+C,499,OSM, WINDSOR                               ,38.33,,MONTEREY,,71,OTH Sonoma/Marin
+W,BRE,OSP, BREMERTON                             ,47.56,,VANCOUVER,,460,OSP
+W,BRI,OSP, BRINNON                               ,47.56,,VANCOUVER,,461,OSP
+W,POU,OSP, POULSBO                               ,47.56,,VANCOUVER,,462,OSP
+W,UNK,OWA, OTHER OR UNKNOWN WASHINGTON PORT      ,49,,,,533,OWA
+W,TAH,OWC, TAHOLAH                               ,46.35,,COLUMBIA,,445,OWC
+W,L.B,OWC, LONG BEACH                            ,46.35,,COLUMBIA,,446,OWC
+C,608,OXN, OXNARD                                ,34.160278,-119.194444,CONCEPTION,OXNARD,9, OXNARD                                
+W,P.A,PAG, PORT ANGELES                          ,48.1239796,-123.4165744,VANCOUVER,PORT ANGELES,468, PORT ANGELES                          
+O,16,PCC, PACIFIC CITY                          ,45.2023263,-123.9628946,COLUMBIA,PACIFIC CITY,366, PACIFIC CITY                          
+C,452,PRN, PRINCETON                             ,37.50325747,-122.4894476,MONTEREY,PRINCETON (HALF MOON BAY),31, PRINCETON                             
+C,478,RCH, RICHMOND                              ,37.915,,MONTEREY,,37, RICHMOND                              
+C,476,RYS, POINT REYES                           ,37.9957621,-123.0233322,MONTEREY,,38, POINT REYES                           
+C,611,SB, SANTA BARBARA                         ,34.4072194,-119.6887448,CONCEPTION,SANTA BARBARA,11, SANTA BARBARA                         
+C,880,SD, SAN DIEGO                             ,32.71162214,-117.1750259,,SAN DIEGO,1, SAN DIEGO                             
+W,SEA,SEA, SEATTLE                               ,47.6592645,-122.3759619,VANCOUVER,SEATTLE,463, SEATTLE                               
+W,SEQ,SEQ, SEQUIM                                ,48.0795365,-123.1018437,VANCOUVER,,466, SEQUIM                                
+C,440,SF, SAN FRANCISCO                         ,37.80983481,-122.4177146,MONTEREY,SAN FRANCISCO,34, SAN FRANCISCO                         
+W,SHE,SHL, SHELTON                               ,47.2150945,-123.1007066,VANCOUVER,,458, SHELTON                               
+O,14,SLK, SAND LAKE                             ,,,,,539, SAND LAKE                             
+O,14,SLK, SAND LAKE                             ,,,,,540, SAND LAKE                             
+C,469,SLT, SAUSALITO                             ,37.8590938,-122.4802506,MONTEREY,,35, SAUSALITO                             
+O,20,SLZ, SILETZ BAY                            ,44.903444,-124.0198361,COLUMBIA,,363, SILETZ BAY                            
+C,770,SP, SAN PEDRO                             ,33.73583,-118.29139,CONCEPTION,SAN PEDRO,5, SAN PEDRO                             
+O,18,SRV, SALMON RIVER                          ,45.0559446,-123.7659463,COLUMBIA,,364, SALMON RIVER                          
+O,18,SRV, SALMON RIVER                          ,45.0559446,-123.7659463,COLUMBIA,,365, SALMON RIVER                          
+W,TAC,TAC, TACOMA                                ,47.28621611,-122.4254608,VANCOUVER,,459, TACOMA                                
+O,10,TLL, GARIBALDI                             ,45.5128814,-123.9165192,COLUMBIA,GARIBALDI (TILLAMOOK),368, GARIBALDI                             
+C,477,TML, TOMALES BAY                           ,38.169643,-122.909996,MONTEREY,,39, TOMALES BAY                           
+W,P.T,TNS, PORT TOWNSEND                         ,48.1170387,-122.7604472,VANCOUVER,,467, PORT TOWNSEND                         
+C,745,TRM, TERMINAL ISLAND                       ,33.73677794,-118.2709658,CONCEPTION,TERMINAL ISLAND,6, TERMINAL ISLAND                       
+C,231,TRN, TRINIDAD                              ,41.0554022,-124.1472914,EUREKA,TRINIDAD,89, TRINIDAD                              
+C,613,VEN, VENTURA                               ,34.24944,-119.26483,CONCEPTION,VENTURA,10, VENTURA                               
+O,47,WAL, WASHINGTON STATE                      ,,,,,541, WASHINGTON STATE                      
+O,47,WAL, WASHINGTON STATE                      ,,,,,542, WASHINGTON STATE                      
+O,32,WIN, WINCHESTER BAY                        ,43.6776165,-124.1776149,COLUMBIA,WINCHESTER BAY,337, WINCHESTER BAY                        
+W,TOK,WLB, TOKELAND                              ,46.7295389,-124.0907263,COLUMBIA,,447, TOKELAND                              
+W,B.C,WLB, BAY CENTER                            ,46.7295389,-124.0907263,COLUMBIA,,448, BAY CENTER                            
+W,NAS,WLB, NASELLE                               ,46.7295389,-124.0907263,COLUMBIA,,449, NASELLE                               
+W,RAY,WLB, RAYMOND                               ,46.7295389,-124.0907263,COLUMBIA,,450, RAYMOND                               
+W,S.B,WLB, SOUTH BEND                            ,46.7295389,-124.0907263,COLUMBIA,,451, SOUTH BEND                            
+O,26,WLD, WALDPORT                              ,44.426786,-124.0687302,COLUMBIA,,360, WALDPORT                              
+C,746,WLM, WILMINGTON                            ,33.780018,-118.2625711,,,7, WILMINGTON                            
+O,67,WPT, WESTPORT WA                           ,46.8900903,-124.1040613,COLUMBIA,,452, WESTPORT WA                           
+W,WES,WPT, WESTPORT                              ,46.8900903,-124.1040613,COLUMBIA,WESTPORT,453, WESTPORT                              
+O,28,YAC, YACHATS                               ,44.3112312,-124.1048418,COLUMBIA,,359, YACHATS                               

@@ -1,0 +1,241 @@
+---
+title: "PacFIN Explorer"
+author: "Aaron Mamula"
+date: "September 14, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#PacFIN Fishery-Port Relationships
+
+This section builds on a relational diagram Cindy Thomson made which showed the number of vessels participating in each major commercial fishery on the West Coast.  The diagram also connected fisheries such that fisheries $i$ and $j$ were connected if the same vessel participated in both fishery $i$ and fishery $j$.
+
+My addition to this diagram allows relationships to be visualized at the port and fishery level.  This vignette proceeds in three main steps:
+
+1. First, I'll provide an example of the type of fishery-port relational plots that can be made with the existing code.
+
+2. Next, I'll provide a description of the code 
+
+3. Finally, I include several more examples and some notes for future improvements.
+
+##A Sample of Port-Fishery Relation Plots Currently Supported
+
+To produce the plot below we first select a reference unit.  A reference unit consists of:
+
+* a port, in this case we selected Fort Bragg
+* a fishery, in this case we selected "D.CRAB POT" (the dungeness crab fishery)
+* a year, in this case 2012
+
+The function *port.network* uses all vessels that participated in the Dungeness Crab fishery in Fort Bragg in 2012 and selects all of thier fishing activity from PacFIN's **SWFSC_FISH_TICKETS** table. The function then aggregates fishery participation by port and fishery.  The result is a list of the number of vessels participating in each West Coast commercial port-fishery combination for which at least one member of the reference group participated.   
+
+
+```{r Data_Pull}
+source("R:/PacFIN 1981-2014/fisherynetwork_datapull.R")
+source("R:/PacFIN 1981-2014/fisherynetwork_fns.R")
+
+port.df <- port.network(port="FORT BRAGG",fishery="D.CRAB POT",yr=2012)
+
+ggplot(port.df,aes(x=Fishery,y=PORT.NAME)) + 
+  geom_tile(aes(fill=boats),colour="white")+
+  scale_fill_gradient(low="gray",high="steelblue") + 
+  theme_bw() + 
+  theme(axis.text.x=element_text(angle=45,size=8),
+        axis.text.y=element_text(size=8)) + 
+  theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank()) +
+  ylab("Port")
+```
+
+What this particular plot shows is that there were somewhere in the neighborhood of 40 boats fishing Dungeness crab out of Fort Bragg in 2012.  Of those 40 boats in 2012, many of them also participated in the salmon troll fishery out of Fort Bragg.  Additionally in 2012, a few of those boats went as far north as Astoria to fish dungeness crab and a few went as far north as Newport, OR to fish salmon troll.  Interestingly, the furthest south any of these went in 2012 was to Long Beach, CA to make hagfish pot landings.  Another noteworthy relationship for the Santa Cruz, FED Economists (since we study the commerical groundfish fishery) is that some of these Fort Bragg dungeness crab fishermen fished groundfish hook-and-line and groundfish pots (sablefish and non-sablefish) in Morro Bay, Half Moon Bay, San Francisco, Bodega Bay, and Point Arena.  
+
+## Code Structure
+
+The code generating the fishery relationship plots is relatively simple and works in three basic steps:
+
+### Step 1: Pull the Data
+
+This step can be broken down into 3 sub-steps:
+
+* establish a connection to the PacFIN server and pull data from the **SWFSC_FISH_TICKETS** table in the PACFIN_MARTS schema
+* clean up fishery code names
+* clean up port names and establish port labels as an ordered factor where the ordering occurs south-to-north
+
+First we sets up an ODBC channel to connect to PacFIN's server then executes a pretty simple query against the **SWFSC_FISH_TICKETS** table in the PACFIN_MARTS schema of the database.
+
+The query simply selects the number of distinct fish tickets from each vessel and orders them by year, port, and fishery code.
+
+```{r}
+#library(RODBC)
+#library(dplyr)
+#library(ggplot2)
+
+#pull count of vessels by fishery and port
+
+#channel<- odbcConnect(dsn="pacfin",uid='',pw='',believeNRows=FALSE#)
+#t <- Sys.time()
+#df <- sqlQuery(channel,paste("select PACFIN_YEAR, VESSEL_NUM, #PACFIN_PORT_CODE,THOMSON_FISHERY_CODE,count(distinct FTID)",
+#                             "from PACFIN_MARTS.SWFSC_FISH_TICKETS",
+#                             "where PACFIN_YEAR > 2003",
+#                             "group by PACFIN_YEAR,VESSEL_NUM, PACFIN_PORT_CODE, #THOMSON_FISHERY_CODE"
+#))
+#Sys.time() - t
+#close(channel)
+
+#df <- tbl_df(df) %>% arrange(PACFIN_YEAR,VESSEL_NUM,THOMSON_FISHERY_CODE,PACFIN_PORT_CODE)
+
+```
+
+The next step cleans up the fishery code labels a little bit.  The field "THOMSON_FISHERY_CODE" in the **SWFSC_FISH_TICKETS** table is a numeric code taking values from 0 - 42 which indicate the fishery that each landing is assigned to.  
+
+```{r}
+# #we could probably read this in as a .csv or something but I'll hard-code it for now:
+# f.codes <- data.frame(THOMSON_FISHERY_CODE=c(0:42),Fishery=c('OTH','D.CRAB POT','O.CRAB #POT','LOBSTER POT','PRAWN POT','P.SHRIMP TWL','PRAWN TWL','WHITING TWL','DTS TWL',
+#'O.GRND TWL','SABLEFISH POT','SABLEFISH HKL','NS ROCK POT','NS ROCK HKL','NNS ROCK POT',
+#'NNS ROCK HKL','HALIBUT HKL','HALIBUT TWL','HALIBUT NET','STURGEON NET','SALMON TROLL',
+#'SALMON NET','SQD SEINE','CPS SEINE','P.HERRING','WS BASS','TUNA TROLL','TUNA SEINE',
+#'SHARK NET','HAGFISH POT','SWRD NET','SWRD OTH','CLAM DREDGE','CLAM/SCALLOP OTH',
+#'OYSTER','SCALLOP TWL','ABALONE','URCHIN','SEA CUCUMBER','GRND GILLNET','GRND LINE',
+#'BAIT SHRIMP MSC','BAIT SHRIMP OTH'))
+# 
+# df <- df %>% inner_join(f.codes,by="THOMSON_FISHERY_CODE")
+
+```
+
+The final sub-step in this initial data pull is to order the ports from south-to-north.  This is done in order to aid the visual presentation.  Our graph output will eventually have ports on the y-axis and we want them ordered in ascending order of latitude so that the resulting plot will read from bottom-to-top as south-to-north.
+
+```{r}
+# #reorder ports using north to south designation
+# ports.ns <- read.csv("R:/PacFIN 1981-2014/lbk_port_locs.csv", strip.white=TRUE)
+# ports.ns <- ports.ns[ports.ns$PCID%in%unique(df$PACFIN_PORT_CODE),c('LAT','PCID','NS.rank','PORT.NAME')]
+# ports.ns <- ports.ns[!duplicated(ports.ns$PCID),]
+# 
+# ports.ns <- ports.ns[order(ports.ns$LAT),]
+# ports.ns$ns <- c(1:length(unique(ports.ns$PCID)))
+# 
+# #merge port description
+# names(df) <- c('PACFIN_YEAR','VESSEL_NUM','PCID','THOMSON_FISHERY_CODE','FTID','Fishery')
+# df <- df %>% inner_join(ports.ns,by='PCID')
+# 
+# df$PORT.NAME <- factor(df$PORT.NAME,levels=ports.ns$PORT.NAME)
+
+```
+
+### Step 2: Initialize a Filtering Function
+
+This step relies on a simple function called *port.network* which:
+
+* accepts as inputs a port, fishery, and year
+* creates a list of unique vessels participating in this 'reference unit'...denote this list as the reference set 
+* produces as output a dataframe with a count of boats for each port and fishery in which the set participated.
+
+```{r}
+# port.network <- function(port,fishery,yr){
+#   vessels <- unique(df$VESSEL_NUM[df$PORT.NAME==port & df$Fishery==fishery & df$PACFIN_YEAR==yr])
+#   port.df <- df %>% filter(VESSEL_NUM %in% vessels & PACFIN_YEAR==yr) %>% #group_by(PORT.NAME,Fishery) %>%
+#     summarise(boats=n_distinct(VESSEL_NUM))
+#   return(port.df)
+#}
+```
+### Step 3: Call the *port.network* Function
+
+By providing the arguments *port*, *fishery*, and *yr* to the *port.network* function you are establishing the reference unit.  The function will then plot the count of boats from that reference unit organized by other West Coast ports and fishery in which they participate.
+
+```{r}
+# port.df <- port.network(port="FORT BRAGG",fishery="D.CRAB POT",yr=2012)
+# 
+# ggplot(port.df,aes(x=Fishery,y=PORT.NAME)) + 
+#   geom_tile(aes(fill=boats),colour="white")+
+#   scale_fill_gradient(low="gray",high="steelblue") + 
+#   theme_bw() + 
+#   theme(axis.text.x=element_text(angle=45,size=8),
+#         axis.text.y=element_text(size=8)) + 
+#   theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank()) 
+
+```
+
+##Usage and Further Examples
+
+
+###Recommended Usage
+
+In the passages above all code was commented out with the exception of the first chunk.  This is because the chunks in **Step 2** and **Step 3** are currently redundent because they appear in the scripts *fisherynetwork_datapull.R* or *fisherynetwork_fns.R* which were sourced in the first code chunk.
+
+The intended purpose of this Fishery-Port Relation Explorer is as a quick data visualization tool.  I would suggest that this purpose is best realized inside the R Notebook environment.  When used as an R Notebook the following code chunk could be executed once:
+
+```{r}
+#source("R:/PacFIN 1981-2014/fisherynetwork_datapull.R")
+#source("R:/PacFIN 1981-2014/fisherynetwork_fns.R")
+```
+
+Then, with the data and necessary function loaded, the following chunks could be executed many times changing some input values to visualize fishery-port relationships for many difference reference units (fishery-port-year combinations):
+
+```{r}
+#first get a list of port names in the data frame so we can feed the right port input to the 
+# function
+unique(df$PORT.NAME)
+
+
+```
+
+
+```{r}
+#now pick a port and get a list of fishery names for a particular port-year combination so we can avoid trying to # plot relationships for reference units that don't exist
+unique(df$Fishery[df$PORT.NAME=="MOSS LANDING" & df$PACFIN_YEAR==2005])
+```
+
+
+```{r}
+#use the port.network function to filter for a particular reference unit
+port.df <- port.network(port="MOSS LANDING",fishery="CPS SEINE",yr=2005)
+
+#plot the fishery-port relationships for the reference unit
+ggplot(port.df,aes(x=Fishery,y=PORT.NAME)) + 
+  geom_tile(aes(fill=boats),colour="white")+
+  scale_fill_gradient(low="gray",high="steelblue") + 
+  theme_bw() + 
+  theme(axis.text.x=element_text(angle=45,size=8),
+        axis.text.y=element_text(size=8)) + 
+  theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank()) +
+  ylab("Port")
+```
+
+
+
+### A Few More Interesting Examples
+```{r}
+#a side-by-side for two fishery-port relationsips
+port.df1 <- port.network(port="MOSS LANDING",fishery="CPS SEINE",yr=2013)
+port.df1$ref="ML CPS"
+port.df2 <- port.network(port="MOSS LANDING",fishery="SALMON TROLL",yr=2013)
+port.df2$ref="ML SALMON TROLL"
+
+port.df <- data.frame(rbind(port.df1,port.df2))
+
+ggplot(port.df,aes(x=Fishery,y=PORT.NAME)) + 
+  geom_tile(aes(fill=boats),colour="white")+
+  scale_fill_gradient(low="gray",high="steelblue") + 
+  facet_wrap(~ref) + 
+  theme_bw() + 
+  theme(axis.text.x=element_text(angle=90,size=6),
+        axis.text.y=element_text(size=6)) + 
+  theme(panel.grid.major=element_blank(), panel.grid.minor=element_blank()) +
+  ylab("Port")
+
+```
+
+## Some Future Plans
+
+I have found these illustrations to be pretty useful.  In the course of our Community Quota Fund Study Rosemary and I have come across some interesting anecdotes about California groundfish fishery moving around the coast.  I started looking at these port-fishery relationships specifically because our survey contractor told us, "We really have to catch the Morro Bay guys soon because in July they're all moving north for salmon and albacore."  I found these plots to be helpful in digging a little deeper into anecdotes like this.
+
+There are some limiting features of the current tool:
+
+* the sabelfish pot, sablefish hook-and-line, non-nearshore rockfish pot, and non-nearshore rockfish hook-and-line fishery codes do use any available IFQ information.  A consequence of this is that, With gear switching post-2011, the sablefish pot fishery code includes both IFQ and non-IFQ sablefish pot landings.  In the future I will probably try to add a filter somewhere to separate IFQ groundfish from other fixed gear groundfish...DTS and non-DTS trawl must be IFQ by construction.
+* the current display uses a gradient and so it can be difficult/impossible to tell what the actual boat counts are.  I am expirimenting with ways to add the boat counts to the plot...but I haven't yet found a way to do it without compromising readability of the plot.
+* this is probably the right use-case for a simple R Shiny App...I might work on that sometime soon.
+
+
+
+
