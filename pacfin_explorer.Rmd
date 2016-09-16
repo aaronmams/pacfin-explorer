@@ -34,8 +34,8 @@ The function *port.network* uses all vessels that participated in the Dungeness 
 
 
 ```{r Data_Pull}
-source("R:/PacFIN 1981-2014/fisherynetwork_datapull.R")
-source("R:/PacFIN 1981-2014/fisherynetwork_fns.R")
+source("R/fisherynetwork_datapull.R")
+source("R/fisherynetwork_fns.R")
 
 port.df <- port.network(port="FORT BRAGG",fishery="D.CRAB POT",yr=2012)
 
